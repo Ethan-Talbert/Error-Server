@@ -5,7 +5,7 @@ import datetime
 import numpy as np
 import pyrebase
 
-class PyrebaseCommunicator(object)
+class PyrebaseCommunicator(object):
 	'''docstring for PyrebaseCommunicator'''
 	def __init__(self):
 		super(PyrebaseCommunicator, self).__init__()

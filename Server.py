@@ -22,7 +22,7 @@ comp.updateTIMDsFromFirebase()
 calculator = Math.Calculator(comp)
 cycle = 1
 scheduleUpdater.scheduleListener()
-shouldSlack = True
+shouldSlack = False
 consolidator = dataChecker.DataChecker()
 consolidator.start()
 APNServer.startNotiStream()
